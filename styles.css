@@ -1,8 +1,3 @@
-img {
-    height: auto;
-    width: 200px;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -31,6 +26,7 @@ body {
 
 .hero {
     margin: 10px 0px;
+    flex: Auto;
 }
 
 ul {
@@ -80,5 +76,48 @@ ul {
     padding: 8px 28px;
     border-radius: 10px;
     border-color: transparent;
+}
 
+.information {
+    padding-bottom: 100px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.information-header-text,
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    gap: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.square {
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
 }
