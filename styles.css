@@ -64,7 +64,8 @@ ul {
     background-color: rgb(107, 108, 122);
     padding: 0px 140px;
     margin-left: 20px; 
-    flex-shrink: 0;
+    flex: 1 0 auto;
+
 }
 
 .sign-up {
@@ -138,4 +139,32 @@ ul {
 
 .quote-author {
     align-self: flex-end
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    background-color:  #3882F6;
+    margin: 70px;
+    border-radius: 10px;
+    color: white;
+}
+
+.bottom {
+    border-color: white;
+    border-width: 2px;
+}
+
+h3, p {
+    margin: 0px;
+    padding: 0px;
 }
