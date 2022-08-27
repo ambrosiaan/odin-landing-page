@@ -58,13 +58,12 @@ ul {
 }
 
 .placeholder-image {
-    flex: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(107, 108, 122);
     padding: 0px 140px;
-    margin-left: 20px;
+    margin-left: 20px; 
     flex-shrink: 0;
 }
 
@@ -120,4 +119,23 @@ ul {
     border-color: #3882F6;
     width: 150px;
     height: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote-author {
+    align-self: flex-end
 }
