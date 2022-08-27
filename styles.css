@@ -8,18 +8,28 @@ body {
     flex-direction: column;
 }
 
-.headers {
+.headers,
+.hero-section
+ {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 0px 100px;
+    padding: 0px 120px;
+}
+
+.hero-section {
+    padding: 80px 120px;
 }
 
 .headers,
-.hero,
+.hero-section,
 .footer {
     background-color: #1F2937;
     color: #E5E7EB
+}
+
+.hero {
+    margin: 10px 0px;
 }
 
 ul {
@@ -43,4 +53,31 @@ ul {
 .hero-text{
     font-size: 48px;
     font-weight:bolder;
+}
+
+.hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.placeholder-image {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 108, 122);
+    padding: 0px 100px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 8px 0px;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border-color: transparent;
+
 }
